@@ -15,7 +15,7 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #4e4a4a;
+    background-color: #ffffff;
     color: black;
   }
   
@@ -32,3 +32,64 @@
     color: white;
     font-size: 15px;
   }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery {
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.gallery img {
+    width: 100px;
+    height: 150px;
+}
+
+/* .gallery:hover {
+    border-radius: 25px;
+    box-shadow: 10px -10px grey; 
+    border: 1px solid grey;
+} */
+
+.gallery a:hover, .gallery a:hover:visited {
+    color: red;
+}
+
+.gallery a:visited {
+    color: green;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #d04e2a;
+    color: white;
+  }
+
+  body {
+    background-image: url('images/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
