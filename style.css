@@ -119,9 +119,12 @@ footer {
   margin-top: 50px;
   width: 750px;
   height: auto;
+  padding: 10px;
 }
 .mhistory iframe{
-  margin-left: 130px;
+  /* margin-left: 130px; */
+  /* padding: 10px; */
+  margin-top: 50px;
   width: 750px;
   height: 500px;
 }
